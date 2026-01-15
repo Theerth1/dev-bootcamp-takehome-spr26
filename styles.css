@@ -1,3 +1,38 @@
-/* Your Styles Here */
-body{
+body {
+    background-color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.centerText {text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+    border-style: dotted
+}
+
+li {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#p1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;}
+
+img {
+    border-style: double;
+    border-width: 15px;
+    border-color: darkblue;
+    border-radius: 10px
 }
