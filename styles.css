@@ -34,5 +34,17 @@ img {
     border-style: double;
     border-width: 15px;
     border-color: darkblue;
-    border-radius: 10px
+    border-radius: 10px;
+
+    animation: movement;
+    animation-iteration-count: 1;
+    animation-play-state: running;
+    animation-delay: 0.5s;
+    animation-timing-function: ease;
+    animation-duration: 7s;
+}
+
+@keyframes movement{
+    from{transform: translateX(100vw);}
+    to{transform: translateX(0);}
 }
